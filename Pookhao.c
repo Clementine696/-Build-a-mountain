@@ -1,13 +1,12 @@
 #include<stdio.h>
 main()
 {
-    int num,i,j,max=0,sum=0,row,c,min;
+    int num,i,j,max=0,row,c,min;
     scanf("%d",&num);
     int take[num];
     for(i=0;i<num;i++)
     {
         scanf("%d",&take[i]);
-        sum+=take[i];
         if(take[i]>max)
             max=take[i];
     }
