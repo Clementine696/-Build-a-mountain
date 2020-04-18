@@ -1,10 +1,10 @@
 #include<stdio.h>
 main()
 {
-    int num,i,j,max=0,row,c,min;
-    scanf("%d",&num);
-    int take[num];
-    for(i=0;i<num;i++)
+    int mountain_num,i,j,max=0,row,c,min;
+    scanf("%d",&mountain_num);
+    int take[mountain_num];
+    for(i=0;i<mountain_num;i++)
     {
         scanf("%d",&take[i]);
         if(take[i]>max)
@@ -13,7 +13,7 @@ main()
     min=max;
     for(row=0;row<max;row++)
     {
-        for(i=0;i<num;i++)
+        for(i=0;i<mountain_num;i++)
         {
             if(take[i]<min)
             {
