@@ -1,4 +1,4 @@
-# -Build-a-mountain
+# Build-a-mountain
 
 input
 3
@@ -6,9 +6,9 @@ input
 
 output
 
-        /\
-   /\  /  \
-/\/  \/    \
+#        /\
+#   /\  /  \
+#/\/  \/    \
 
 input
 5
