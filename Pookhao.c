@@ -16,8 +16,8 @@ main()
         {
             if(take[i]<maxhigh-row)
             {
-                for(c=0;c<take[i]*2;c++)
-                    printf(" ");
+                for(c=0;c<take[i];c++)
+                    printf("  ");
             }
             if(take[i]>=maxhigh-row)
             {
